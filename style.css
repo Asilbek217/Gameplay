@@ -189,10 +189,69 @@ header {
 
 .item--p {
   width: 200px;
+  color:rgb(205,209,223) ;
 }
 
 .bold-item {
   font-family: "EB Garamond", serif;
   font-family: "Rubik", sans-serif;
-  padding: 1rem 0
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 80.8rem;
+  padding: 9.6rem 0;
+  background-color: aqua;
+}
+
+
+.grid--portfolio {
+  display: grid;
+  grid-template-rows: repeat(10, 10%);
+  grid-template-columns: repeat(11, 9%);
+  width: 120rem;
+  height: 80rem;
+  background-color: black;
+  column-gap: 50px;
+}
+
+.works {
+  background-color: beige;
+  grid-column: span 11;
+  grid-row: span 2;
+}
+
+.valorant {
+  background-color: yellowgreen;
+  grid-column: span 3;
+  grid-row: span 6;
+}
+
+.fortnite {
+  background-color: blue;
+  grid-column: span 3;
+  grid-row: span 6;
+}
+
+.overwatch {
+  background-color: steelblue;
+  grid-column: span 3;
+  grid-row: span 6;
+}
+
+.view {
+  background-color: seagreen;
+  grid-column: 1;
+  grid-row: span 2;
+  grid-column: span 10;
+}
+
+.left {
+  background-color: aquamarine;
+  grid-column: 2;
 }
