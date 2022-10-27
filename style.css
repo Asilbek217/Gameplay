@@ -128,7 +128,7 @@ header {
 
 .grid--container {
   display: grid;
-  grid-template-rows: repeat(10, 10%);
+  grid-template-rows: repeat(12, 10%);
   grid-template-columns: repeat(10, 10%);
   width: 100rem;
   height: 30rem;
@@ -189,7 +189,7 @@ header {
 
 .item--p {
   width: 200px;
-  color:rgb(205,209,223) ;
+  color: rgb(205, 209, 223);
 }
 
 .bold-item {
@@ -201,57 +201,321 @@ header {
 
 .portfolio {
   display: flex;
-  align-items: center;
   justify-content: center;
   width: auto;
-  height: 80.8rem;
   padding: 9.6rem 0;
-  background-color: aqua;
 }
-
 
 .grid--portfolio {
   display: grid;
-  grid-template-rows: repeat(10, 10%);
-  grid-template-columns: repeat(11, 9%);
-  width: 120rem;
+  grid-template-rows: repeat(11, 8%);
+  grid-template-columns: repeat(8, 8%);
+  width: 100rem;
   height: 80rem;
-  background-color: black;
-  column-gap: 50px;
+
+  column-gap: 25px;
 }
 
 .works {
-  background-color: beige;
-  grid-column: span 11;
+  grid-column: span 9;
   grid-row: span 2;
+}
+
+.port {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(35, 35, 167);
+  font-family: "EB Garamond", serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+}
+
+.text-box-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.paragraf {
+  padding-bottom: 20px;
+}
+
+.bold--item {
+  font-size: 3.3rem;
 }
 
 .valorant {
-  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   grid-column: span 3;
-  grid-row: span 6;
+  grid-row: span 5;
+  border-radius: 2px;
 }
 
 .fortnite {
-  background-color: blue;
   grid-column: span 3;
-  grid-row: span 6;
+  grid-row: span 5;
 }
 
 .overwatch {
-  background-color: steelblue;
   grid-column: span 3;
-  grid-row: span 6;
+  grid-row: span 5;
 }
 
 .view {
-  background-color: seagreen;
-  grid-column: 1;
+  grid-column: span 9;
   grid-row: span 2;
-  grid-column: span 10;
 }
 
 .left {
-  background-color: aquamarine;
   grid-column: 2;
+}
+
+.png-img {
+  display: flex;
+  align-items: center;
+  width: 27rem;
+  height: auto;
+}
+
+.lorem {
+  grid-row: span 2;
+  grid-column: span 3;
+  display: flex;
+  padding-top: 1.7rem;
+}
+
+.text-box {
+  grid-row: span 2;
+  grid-column: span 3;
+  display: flex;
+  padding-top: 1.7rem;
+}
+
+.lorem-text {
+  grid-row: span 2;
+  grid-column: span 3;
+  display: flex;
+  padding-top: 1.7rem;
+}
+
+.lorem-items {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.lorem-p-item {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.9rem;
+  width: 25rem;
+}
+
+.btn-right-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 0 1.2rem;
+}
+
+.first-btn {
+  color: #ffffff;
+  background-color: rgb(249, 201, 78);
+  border: none;
+}
+
+.second {
+  border-color: rgb(249, 201, 78);
+  color: rgb(249, 201, 78);
+  background-color: #ffffff;
+  border: 3 px;
+}
+
+.alone {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-alone {
+  padding: 7px 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(72, 87, 236);
+  border: none;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.little_container {
+  width: 100rem;
+  height: 50rem;
+  background-color: rgb(219, 235, 235);
+}
+
+.testim {
+  width: 20rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  color: blue;
+  font-size: 1.3rem;
+}
+
+.bold-titles {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+}
+
+.lorem-box {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 100rem;
+  height: 30rem;
+  padding: 0 0 0 1rem;
+  gap: 2rem;
+}
+
+.li-items-one {
+  width: 38rem;
+  height: 20rem;
+  background-color: #ffffff;
+}
+
+.sticer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.lorem-text-box {
+  width: 14rem;
+  display: flex;
+  align-items: center;
+}
+
+.li-items-two {
+  width: 38rem;
+  height: 20rem;
+  background-color: #ffffff;
+}
+
+.li-items-three {
+  width: 20rem;
+  height: 20rem;
+  background-color: #ffffff;
+}
+
+.btn-last {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.see {
+  border: none;
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.padd {
+  padding: 0 1rem 0 3rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.btn-color {
+  color: rgb(208, 212, 226);
+  padding: 0.6rem;
+}
+
+.btn-border {
+  border-color: yellow;
+  color: yellow;
+  padding: 0.6rem;
+}
+
+.stic-item {
+  padding: 0 2rem 0;
+}
+
+.middle {
+  font-size: 1rem;
+  color: rgb(113, 103, 103);
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group {
+  width: 100rem;
+  height: 50rem;
+  background-color: rgb(141, 141, 156);
+}
+
+.team {
+  width: 23rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  color: blue;
+  font-size: 1.3rem;
+}
+
+.li-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 100rem;
+  height: 25rem;
+  background-color: rgb(43, 43, 153);
+  gap: 3rem;
+
+}
+
+.li-img-one {
+  width: 22rem;
+  height: 25rem;
+  background-color: #7b2121;
+}
+
+.li-img-two {
+  width: 22rem;
+  height: 25rem;
+  background-color: #c27f7f;
+}
+
+.li-img-three {
+  width: 22rem;
+  height: 25rem;
+  background-color: #d9cccc;
+}
+
+.bold-titles-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem 3rem 9rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
 }
