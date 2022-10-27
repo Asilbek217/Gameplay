@@ -466,8 +466,7 @@ header {
 
 .group {
   width: 100rem;
-  height: 50rem;
-  background-color: rgb(141, 141, 156);
+  height: 65rem;
 }
 
 .team {
@@ -483,32 +482,27 @@ header {
 
 .li-img {
   display: flex;
-  align-items: center;
   justify-content: center;
   list-style: none;
   width: 100rem;
-  height: 25rem;
-  background-color: rgb(43, 43, 153);
-  gap: 3rem;
+  height: 33rem;
 
+  gap: 3rem;
 }
 
 .li-img-one {
-  width: 22rem;
-  height: 25rem;
-  background-color: #7b2121;
+  width: 26rem;
+  height: 31rem;
 }
 
 .li-img-two {
-  width: 22rem;
-  height: 25rem;
-  background-color: #c27f7f;
+  width: 26rem;
+  height: 31rem;
 }
 
 .li-img-three {
-  width: 22rem;
-  height: 25rem;
-  background-color: #d9cccc;
+  width: 26rem;
+  height: 31rem;
 }
 
 .bold-titles-item {
@@ -518,4 +512,64 @@ header {
   padding: 0 4rem 3rem 9rem;
   font-family: "Rubik", sans-serif;
   font-size: 2rem;
+}
+
+.png-photo {
+  width: 26rem;
+  height: 28;
+  padding: 5px;
+}
+
+.photo-about {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.about-photo {
+  width: 26rem;
+  height: 8rem;
+}
+
+.about-photo-one {
+  width: 26rem;
+  height: 8rem;
+}
+
+.about-photo-two {
+  width: 26rem;
+  height: 8rem;
+}
+
+.button-btn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100rem;
+  height: 10rem;
+  padding-bottom: 3rem;
+}
+
+.button-vw {
+  width: 20rem;
+  height: 3rem;
+  color: blue;
+  font-weight: 700;
+}
+
+.title_about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.3rem;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.9rem;
+  color: rgb(101, 100, 100);
 }
