@@ -555,6 +555,8 @@ header {
   height: 3rem;
   color: blue;
   font-weight: 700;
+  border: none;
+  background-color: #ffffff;
 }
 
 .title_about {
@@ -580,13 +582,12 @@ header {
   justify-content: center;
   width: 100%;
   height: 75rem;
-
+  background-color: rgb(245, 247, 251);
 }
 
 .elements {
   width: 80%;
   height: 70rem;
- 
 }
 
 .navbar_two {
@@ -594,6 +595,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  font-family: "Rubik", sans-serif;
 }
 
 .big-title {
@@ -614,7 +616,7 @@ header {
 
   font-size: 1.3rem;
   font-family: "Rubik", sans-serif;
-  color: rgb(216, 213, 213);
+  color: rgb(138, 148, 166);
 }
 
 .bill {
@@ -625,7 +627,7 @@ header {
   gap: 1.5rem;
   font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
-  color: gray;
+  color: rgb(138, 148, 166);
 }
 
 .photo_btn {
@@ -637,16 +639,280 @@ header {
 
 .shop-elements {
   height: 40rem;
-  background-color: rgb(61, 155, 237);
+  background-color: rgb(245, 247, 251);
   display: flex;
   align-items: center;
   justify-content: center;
   list-style: none;
   gap: 3rem;
+  font-family: "Rubik", sans-serif;
 }
 
 .shop {
   width: 28rem;
   height: 36rem;
-  background-color: rgb(16, 63, 63);
+  background-color: rgb(255, 255, 255);
+}
+
+.title_yellow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 10rem;
+  color: rgb(249, 201, 78);
+  font-size: 2.8rem;
+}
+
+.coast {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  height: 5rem;
+  width: 16rem;
+}
+
+.black-bold {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.per {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  height: 5rem;
+  color: rgb(138, 148, 166);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  gap: 0.4rem;
+  color: rgb(138, 148, 166);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.2rem;
+  height: 4.2rem;
+  gap: 0.4rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: rgb(138, 148, 166);
+}
+
+.title_srd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 16rem;
+  font-size: 3rem;
+  color: rgb(72, 87, 236);
+}
+
+.black-bolds {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.coasts {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 5rem;
+  width: 19rem;
+}
+
+.element-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  height: 3.2rem;
+  gap: 0.4rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: rgb(138, 148, 166);
+}
+
+.contents_last {
+  width: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  gap: 0.4rem;
+  color: rgb(138, 148, 166);
+}
+
+.content_last {
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  gap: 0.4rem;
+  height: 3.4rem;
+  color: rgb(138, 148, 166);
+}
+
+.element_three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  font-size: 1.4rem;
+  gap: 0.4rem;
+  padding: 0 0 0 1.9rem;
+  color: rgb(138, 148, 166);
+}
+
+.element_last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  height: 3.4rem;
+  font-size: 1.4rem;
+  gap: 0.4rem;
+  color: rgb(138, 148, 166);
+}
+
+.title_prm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 16rem;
+  font-size: 3rem;
+  color: rgb(47, 239, 177);
+}
+
+.get-sd {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 13rem;
+}
+
+.get-started {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 10rem;
+}
+
+.get-st {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  height: 8rem;
+}
+
+.item_btn {
+  border: none;
+  padding: 12px 84px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: rgb(72, 87, 236);
+}
+
+footer {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 30rem;
+}
+
+.widht {
+  display: flex;
+  flex-wrap: wrap;
+  width: 55rem;
+  height: 20rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgb(138, 148, 166);
+  font-size: 1.5rem;
+}
+
+.height {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.height h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.starter {
+  width: 30%;
+  height: 30rem;
+}
+
+.logos_play {
+  padding: 5rem;
+  height: 20rem;
+}
+
+.height ul li {
+  height: 20px;
+  width: 10rem;
+}
+
+.icons_four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  width: 40rem;
+  height: 6rem;
+  color: rgb(138, 148, 166);
+}
+
+.logos_item {
+  font-size: 3rem;
+}
+
+.junior {
+  height: 4rem;
+  width: 26rem;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: rgb(138, 148, 166);
 }
