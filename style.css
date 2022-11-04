@@ -21,6 +21,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "EB Garamond", serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .break {
@@ -53,12 +55,11 @@ header {
   background-color: rgb(72, 87, 236);
   color: #ffffff;
   border: none;
-  font-weight: 550;
+  font-weight: 550; 
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
 }
 
-.contact {
-  font-size: 1.1rem;
-}
 
 .gameplay--img {
   width: 60%;
@@ -79,6 +80,7 @@ header {
   font-size: 1.1rem;
   border: none;
   font-weight: 550;
+  border-radius: 0.4rem;
 }
 
 .hand {
@@ -326,13 +328,18 @@ header {
   color: #ffffff;
   background-color: rgb(249, 201, 78);
   border: none;
+  font-size: 2rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .second {
   border-color: rgb(249, 201, 78);
   color: rgb(249, 201, 78);
   background-color: #ffffff;
-  border: 3 px;
+  border: 2px solid ;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.5rem;
 }
 
 .alone {
@@ -357,7 +364,8 @@ header {
 .little_container {
   width: 100rem;
   height: 50rem;
-  background-color: rgb(219, 235, 235);
+  background-image: url(./testimonial/images.jpg);
+  background-size: cover;
 }
 
 .testim {
@@ -395,6 +403,7 @@ header {
   width: 38rem;
   height: 20rem;
   background-color: #ffffff;
+  border-radius: 1rem;
 }
 
 .sticer {
@@ -412,9 +421,11 @@ header {
   width: 38rem;
   height: 20rem;
   background-color: #ffffff;
+  border-radius: 1rem;
 }
 
 .li-items-three {
+  border-radius: 1rem;
   width: 20rem;
   height: 20rem;
   background-color: #ffffff;
@@ -440,13 +451,16 @@ header {
 
 .btn-color {
   color: rgb(208, 212, 226);
-  padding: 0.6rem;
+  padding: 0.8rem 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(125, 131, 151);
 }
 
 .btn-border {
   border-color: yellow;
-  color: yellow;
-  padding: 0.6rem;
+  color: rgb(199, 199, 17);
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.5rem
 }
 
 .stic-item {
