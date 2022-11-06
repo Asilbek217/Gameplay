@@ -272,6 +272,7 @@ header {
 .view {
   grid-column: span 9;
   grid-row: span 2;
+
 }
 
 .left {
@@ -353,6 +354,7 @@ header {
   color: #ffffff;
   background-color: rgb(72, 87, 236);
   border: none;
+  border-radius: 0.5rem;
 }
 
 .testimonial {
