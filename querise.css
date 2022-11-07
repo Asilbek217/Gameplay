@@ -27,6 +27,10 @@
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
+
+  .icons {
+    gap: 3rem;
+  }
 }
 
 /**************************/
@@ -41,6 +45,38 @@
 /**************************/
 
 @media (max-width: 34em) {
+  header {
+    display: none;
+  }
+
+  .break--container {
+    flex-direction: column;
+  }
+
+  .title-box {
+    width: 90%;
+    align-items: center;
+  }
+
+  .gameplay--img {
+    width: 100%;
+  }
+
+  .box-text p {
+    font-size: 1.2rem;
+  }
+
+  .partner--icon {
+    width: 6rem;
+  }
+
+  .features .container {
+    flex-direction: column;
+  }
+
+  .titles {
+    width: 90%;
+  }
 }
 
 /* 
