@@ -1,4 +1,5 @@
 # Gameplay
+
 O'yinlar haqida malumot
 
 <div id="top"></div>
@@ -78,7 +79,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <!-- Qaysi dasturlash tillaridan tashkil topgani haqida yozing ma'lumot bilan -->
 
-Bu dastur faqatgina html va css dan tashkil topgan. 
+Bu dastur faqatgina html va css dan tashkil topgan.
 
 <!-- Dasturlash tillarini o'zingizni dasturingizga qarab to'g'rilang o'zgartiring -->
 
@@ -121,7 +122,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/rustamxon7/personal-budget-planner.git
+   git clone https://github.com/AsilbekYoldashaliyev/gameplay
    ```
 3. Install NPM packages
    ```sh
@@ -129,7 +130,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 4. Enter your API in `config.js`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = "ENTER YOUR API";
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
